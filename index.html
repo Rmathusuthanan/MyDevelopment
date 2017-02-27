@@ -1,0 +1,26 @@
+<link href="~/Areas/coloursApp/css/app.css" rel="stylesheet"/>
+<link href="~/Areas/coloursApp/css/bootstrap.css" rel="stylesheet" />
+   <div ng-controller="mainCtrl as vm">
+    <table class="table table-responsive table-bordered">
+
+        <thead>
+        <tr>
+            <td><b>No</b></td>
+            <td><b>colours</b></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="clr in vm.colours">
+            <td>{{$index+1}}</td>
+            <td>{{clr.name}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="/scripts/angular.js"></script>
+<script src="/dest/coloursApp/app.module.js"></script>
+<script src="/dest/coloursApp/interface/colours.js"></script>
+<script src="/dest/coloursApp/controller/mainController.js"></script>
+
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "cloudipart",
+  "description": "Cloud  I-Part Applications",
+  "main": "app.js",
+  "authors": [
+    "Rmathusuthanan <rmathusuthanan@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="panel panel-primary">
+
+        <div class="panel-heading">
+            {{vm.title}}
+        </div>
+        <div class="panel-body">
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Names</th>
+				
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr ng-repeat="contact in vm.contacts.$values">
+
+                   <td>{{contact.Id}}</td>
+					<td>{{contact.Name}}</td>
+                 <!--   <td>{{contact.CountryCode}}</td>
+                    <td>{{contact.CountryName}}</td>-->
+					
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
